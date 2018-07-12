@@ -1,0 +1,134 @@
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;   
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:570px;
+    width:17%;
+    float:right;
+    padding:5px;
+    margin-top: 25px;       
+    padding-left: 10px;
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;    
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;   
+}
+#first
+{
+    margin-top: 25px;
+    width: 35%;
+    
+    float: left;
+    height: 250px;  
+    padding: 20px;   
+    margin-bottom: 25px;
+}
+#second
+{
+    margin-top: 25px;
+    margin-left : 45px;
+    
+    width: 35%;
+    float: left;
+    height: 250px; 
+    margin-bottom: 25px;
+    padding: 20px;   
+}
+
+#main
+{
+    /*margin-left: 25px;
+    margin-bottom: 25px;*/
+}
+
+.heading1
+{
+    width: 100%;
+    text-align : center;
+}
+
+a
+{
+    text-decoration: none;
+    cursor: hand;
+    color: black;
+}
+
+
+
+
+.box h3{
+    text-align:center;
+    position:relative;
+    /*top:380px;*/
+}
+
+.box {
+    width:50%;
+    height:50%;
+    background:#FFF;
+    margin:20px auto;
+}
+
+.effect7
+{
+    position:relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    /*top : 120px;*/
+}
+
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+} 
+
+.effect7:after
+{
+    right:10px; 
+    left:auto; 
+    transform:skew(8deg) rotate(3deg);
+}
+
+a.start{
+  display:inline-block;
+  color:#666;
+  background:#f4f4f4;
+  border:1px dotted #ccc;
+  padding:6px 13px;
+  text-align : center;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#bdy
+{
+  /*margin-top: 100px;*/
+}
+
+#mar
+{
+  margin-top:20px;
+  margin-left: 50px;
+}
